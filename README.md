@@ -27,7 +27,10 @@ Jalankan:
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/freetunnel/ptrodac/main/install.sh)
 
-Script ini akan:
+```
+
+---
+## This script is a.k.a.Script ini akan:
 
 Install semua dependency
 
@@ -47,13 +50,16 @@ Panel langsung bisa dipakai
 
 ---
 
-🎨 INSTALL TEMA FREETUNNEL
+## 🎨 INSTALL TEMA FREETUNNEL
 
 Jika ingin memasang theme neon-cyan Freetunnel:
 
-bash <(curl -s https://raw.githubusercontent.com/freetunnel/ptrodac/main/them/install.sh)
+```bash <(curl -s https://raw.githubusercontent.com/freetunnel/ptrodac/main/them/install.sh)
 
-Theme ini hanya mengubah tampilan:
+```
+
+---
+## Theme ini hanya mengubah tampilan:
 
 Login page
 
@@ -71,11 +77,12 @@ Tidak mengubah fungsi panel.
 
 ---
 
-♻️ UNINSTALL TEMA (KEMBALI KE DEFAULT)
+## ♻️ UNINSTALL TEMA (KEMBALI KE DEFAULT)
 
 Jika ingin menghapus theme:
 
-bash <(curl -s https://raw.githubusercontent.com/freetunnel/ptrodac/main/them/uninstall.sh)
+```bash <(curl -s https://raw.githubusercontent.com/freetunnel/ptrodac/main/them/uninstall.sh)
+```
 
 Backup file login panel otomatis direstore.
 
