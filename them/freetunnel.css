@@ -1,0 +1,209 @@
+/* ===========================================================
+   FREE TUNNELING PANEL THEME
+   Ultra Dark + Neon Cyan Edition
+   Author: Freetunnel Corp
+   ===========================================================*/
+
+:root {
+    --ft-primary: #00eaff;
+    --ft-primary-soft: rgba(0, 234, 255, 0.12);
+    --ft-bg: #04070f;
+    --ft-bg2: #050912;
+    --ft-border: #0e1424;
+    --ft-text: #d9e6ff;
+    --ft-text-muted: #7a89a7;
+}
+
+body {
+    background: radial-gradient(circle at top, #071629 0%, #02040a 55%, #020308 100%) !important;
+    color: var(--ft-text) !important;
+    font-family: "Inter", sans-serif !important;
+}
+
+/* NAVBAR */
+.navbar {
+    background: linear-gradient(90deg, #030611, #020a15, #030611) !important;
+    border-bottom: 1px solid var(--ft-primary-soft) !important;
+    box-shadow: 0 0 20px rgba(0, 234, 255, 0.14);
+}
+
+.navbar-brand, .navbar-brand span {
+    color: var(--ft-primary) !important;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+.ft-subbrand {
+    display: block;
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    color: var(--ft-text-muted);
+}
+
+/* SIDEBAR */
+.sidebar, .sidebar-nav {
+    background: #050814 !important;
+    border-right: 1px solid var(--ft-border) !important;
+}
+
+.sidebar .nav-link {
+    color: var(--ft-text-muted) !important;
+}
+
+.sidebar .nav-link:hover {
+    background: var(--ft-primary-soft) !important;
+    color: var(--ft-primary) !important;
+}
+
+.sidebar .nav-link.active {
+    background: rgba(0, 234, 255, 0.18) !important;
+    border-left: 3px solid var(--ft-primary);
+    color: var(--ft-primary) !important;
+}
+
+/* CARDS */
+.card,
+.panel,
+.card-body,
+.card-header,
+.panel-default {
+    background: linear-gradient(150deg, var(--ft-bg2), #040b16) !important;
+    border-radius: 14px !important;
+    border: 1px solid var(--ft-border) !important;
+    color: var(--ft-text) !important;
+    box-shadow:
+        0 0 0 1px rgba(0, 0, 0, 0.4),
+        0 0 22px rgba(0, 234, 255, 0.08);
+}
+
+/* BUTTONS */
+.btn-primary {
+    background: var(--ft-primary) !important;
+    border-color: var(--ft-primary) !important;
+    color: #020308 !important;
+    font-weight: 600;
+    box-shadow:
+        0 0 14px rgba(0, 234, 255, 0.8),
+        0 0 42px rgba(0, 234, 255, 0.35);
+    transition: all 0.2s ease-out;
+}
+
+.btn-primary:hover {
+    transform: translateY(-1px);
+    box-shadow:
+        0 0 18px rgba(0, 234, 255, 1),
+        0 0 60px rgba(0, 234, 255, 0.45);
+}
+
+.btn-outline-primary {
+    border-color: var(--ft-primary) !important;
+    color: var(--ft-primary) !important;
+}
+
+.btn-outline-primary:hover {
+    background: var(--ft-primary-soft) !important;
+    color: var(--ft-primary) !important;
+}
+
+/* INPUTS */
+.form-control {
+    background: rgba(4, 10, 22, 0.92) !important;
+    border: 1px solid #101729 !important;
+    border-radius: 10px;
+    color: var(--ft-text) !important;
+}
+
+.form-control:focus {
+    border-color: var(--ft-primary) !important;
+    box-shadow: 0 0 0 1px rgba(0, 234, 255, 0.4);
+}
+
+/* TABLE */
+table,
+.table {
+    color: var(--ft-text) !important;
+}
+
+.table thead th {
+    color: var(--ft-text-muted) !important;
+    border-bottom: 1px solid var(--ft-border) !important;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 10px;
+}
+
+/* ALERTS */
+.alert-info {
+    background: rgba(0, 234, 255, 0.12);
+    border: 1px solid var(--ft-primary-soft);
+    color: var(--ft-text);
+}
+.alert-success {
+    background: rgba(0, 255, 135, 0.10);
+    border-color: rgba(0, 255, 135, 0.25);
+}
+.alert-danger {
+    background: rgba(255, 60, 60, 0.10);
+    border-color: rgba(255, 60, 60, 0.25);
+}
+
+/* LOGIN PAGE */
+.ft-login-bg {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:
+        radial-gradient(circle at top, rgba(0, 234, 255, 0.15), transparent 55%),
+        radial-gradient(circle at bottom, rgba(0, 234, 255, 0.06), transparent 65%),
+        #020309;
+}
+
+.ft-login-card {
+    width: 100%;
+    max-width: 420px;
+    padding: 28px 30px 24px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #050814, #040814);
+    box-shadow:
+        0 0 0 1px rgba(0, 0, 0, 0.8),
+        0 22px 70px rgba(0, 0, 0, 0.95),
+        0 0 40px rgba(0, 234, 255, 0.22);
+}
+
+/* LOGO */
+.ft-logo-main {
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.ft-logo-big {
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ft-primary);
+    text-shadow:
+        0 0 10px rgba(0, 234, 255, 0.8),
+        0 0 26px rgba(0, 234, 255, 0.6);
+}
+
+.ft-logo-sub {
+    margin-top: 4px;
+    font-size: 11px;
+    color: var(--ft-text-muted);
+    letter-spacing: 0.16em;
+}
+
+/* LOGIN FOOTER */
+.ft-login-footer {
+    margin-top: 14px;
+    text-align: center;
+    font-size: 10px;
+    color: var(--ft-text-muted);
+}
+
+.ft-login-footer a {
+    color: var(--ft-primary);
+}

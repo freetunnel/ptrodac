@@ -1,0 +1,14 @@
+<svg width="640" height="200" viewBox="0 0 640 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="200" fill="#050811"/>
+  <text x="50%" y="48%" dominant-baseline="middle" text-anchor="middle"
+        style="font-family: 'Montserrat', sans-serif; font-size: 62px; font-weight: 800;
+               fill: #00eaff; letter-spacing: 0.20em;
+               text-shadow: 0 0 12px rgba(0,234,255,0.9), 0 0 32px rgba(0,234,255,0.6);">
+        FREETUNNEL
+  </text>
+  <text x="50%" y="75%" dominant-baseline="middle" text-anchor="middle"
+        style="font-family: 'Inter', sans-serif; font-size: 16px; 
+               fill: #7b8aa5; letter-spacing: 0.32em;">
+        SECURE NETWORK PANEL
+  </text>
+</svg>
